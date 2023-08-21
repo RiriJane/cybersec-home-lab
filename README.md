@@ -55,6 +55,7 @@ ip r
 ```
 
 <p><b>Verify ip address and gateway with Windows machines</b></p>
+
 ```
 ipconfig
 ```
