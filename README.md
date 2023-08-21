@@ -40,7 +40,7 @@ For each virtual machine change the network adapter to "Bridged Adapter":
 
 <p>Once each network adapter has been changed. Turn them on one by one and write down their ip address and gateway. Eventually from Windows machines try to ping Linux machines. Note that Linux machines cannot ping Windows machine due to Windows defender or firewal. This will be dealt with later on.</p>
 
-<p><b>Verify ip address with linux machines</b></p>
+<p><b>Verify ip address with Linux machines</b></p>
 
 ```
 ip a
@@ -48,9 +48,13 @@ ip a
 ifconfig 	# alternatively
 ```
 
-<p><b>Verify gateway with linux machines</b></p>
+<p><b>Verify gateway with Linux machines</b></p>
 
 ```
 ip r
 ```
 
+<p><b>Verify ip address and gateway with Windows machines</b></p>
+```
+ipconfig
+```
