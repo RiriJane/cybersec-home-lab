@@ -29,10 +29,24 @@ For this project, I am using Ubuntu 22.04 LTS as the main host.
     - Click on "New"
     - Type and Version : Microsoft Windows, Windows 2019
     - Hard Disk: Create a virtual hard disk file for now
+    
+<p>Feel free to rename the VM's name and to choose the snapshot location</p>
 
 <h1>Verifying Network Configuration</h1>
-For each virtual machine change the network adapter to "Bridged Adapter".
+
+For each virtual machine change the network adapter to "Bridged Adapter":
 
 ![](/img/Verify-Network/1.png)
 
+<p>Once each network adapter has been changed. Turn them on one by one and write downn their ip address and gateway. Eventually from Windows machines try to ping Linux machines. Note that Linux machines cannot ping Windows machine due to Windows defender or firewall that will be dealt with later on.</p>
+
+<p></b>Verify ip address with Linux machine</b></p>
+```ip a
+
+#alternatively
+
+ifconfig```
+
+<p></b>Verify gateway with Linux machine</b></p>
+```ip r```
 
