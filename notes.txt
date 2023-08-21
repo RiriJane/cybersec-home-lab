@@ -1,0 +1,39 @@
+# August 18 2023
+
+- Downloaded virtualbox, kali, metasploitable2, windows 10 and windows server
+- Imported/Added all VM to Virtualbox
+- For each VM, changed network settings to Bridge mode for adapter 1
+
+# August 20 2023
+
+- Networking
+
+	Kali: 
+	user/pwd:	kali/kali
+	ip: 		192.168.1.116/24 
+	gateway: 	192.168.1.1
+	  
+	Win10 Client:
+	user/pwd : 		Alice/alice		
+	Security questions: 	3x alice
+	ip: 			192.168.1.120/24
+	gateway: 		192.168.1.1
+	
+	Metasploitable:
+	user/pwd: 	msfadmin/msfadmin
+	ip: 		192.168.1.121/24
+	gateway: 	192.168.1.1
+	
+	WinServer2019:
+	user/pwd: Administrator/admin%321
+	ip: 192.168.1.122/24
+	gateway: 192.168.1.1
+	
+
+
+
+FOR NEXT TIME : 
+- New github repo for this lab
+- Add lab to Github profil
+- Write down in ReadMe.md
+- Start part 3 of video 
