@@ -33,6 +33,6 @@ For this project, I am using Ubuntu 22.04 LTS as the main host.
 <h1>Verifying Network Configuration</h1>
 For each virtual machine change the network adapter to "Bridged Adapter".
 
-![img/Verify-Network/1.png]
+!(/img/Verify-Network/1.png)
 
 
