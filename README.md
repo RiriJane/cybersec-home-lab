@@ -7,7 +7,7 @@ This project is based on CyberKraft's tutorial : https://www.youtube.com/playlis
 
 For this project, I am using Ubuntu 22.04 LTS as the main host.
 
-- Virtualbox: ```sudo apt install virtualbox``
+- Virtualbox: ```sudo apt install virtualbox```
 - Kali: https://www.kali.org/get-kali/#kali-virtual-machines
 - Metasploitable2: https://sourceforge.net/projects/metasploitable/files/Metasploitable2/metasploitable-linux-2.0.0.zip/download 
 - Windows 10 entreprise: https://info.microsoft.com/ww-landing-windows-10-enterprise.html
@@ -45,9 +45,7 @@ For each virtual machine change the network adapter to "Bridged Adapter":
 ```
 ip a
 
-#alternatively
-
-ifconfig
+ifconfig 	# alternatively
 ```
 
 <p><b>Verify gateway with linux machines</b></p>
