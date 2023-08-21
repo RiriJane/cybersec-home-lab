@@ -1,6 +1,6 @@
 <h1>Cybersecurity Home Lab</h1>
 
-This project is based on CyberKraft tutorial : https://www.youtube.com/playlist?list=PLUkY1OVVHzVktZOecfiDxdIodK4l5KkwY
+This project is based on CyberKraft's tutorial : https://www.youtube.com/playlist?list=PLUkY1OVVHzVktZOecfiDxdIodK4l5KkwY
 
 
 <h1>Environment Setup</h1>
@@ -30,7 +30,7 @@ For this project, I am using Ubuntu 22.04 LTS as the main host.
     - Type and Version : Microsoft Windows, Windows 2019
     - Hard Disk: Create a virtual hard disk file for now
     
-<p>Feel free to rename the VM's name and to choose the snapshot location</p>
+<p>Feel free to rename the VM's name and to choose the snapshot location.</p>
 
 <h1>Verifying Network Configuration</h1>
 
@@ -38,9 +38,9 @@ For each virtual machine change the network adapter to "Bridged Adapter":
 
 ![](/img/Verify-Network/1.png)
 
-<p>Once each network adapter has been changed. Turn them on one by one and write downn their ip address and gateway. Eventually from Windows machines try to ping Linux machines. Note that Linux machines cannot ping Windows machine due to Windows defender or firewall that will be dealt with later on.</p>
+<p>Once each network adapter has been changed. Turn them on one by one and write down their ip address and gateway. Eventually from Windows machines try to ping Linux machines. Note that Linux machines cannot ping Windows machine due to Windows defender or firewal. This will be dealt with later on.</p>
 
-<p><b>Verify ip address with Linux machines</b></p>
+<p><b>Verify ip address with linux machines</b></p>
 
 ```
 ip a
@@ -50,7 +50,7 @@ ip a
 ifconfig
 ```
 
-<p><b>Verify gateway with Linux machines</b></p>
+<p><b>Verify gateway with linux machines</b></p>
 
 ```
 ip r
